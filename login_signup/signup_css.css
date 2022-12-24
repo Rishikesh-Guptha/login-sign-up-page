@@ -1,0 +1,32 @@
+.main{
+    border: 2px black solid;
+    border-radius: 20px;
+    margin: 8rem 22rem;
+}
+.heading{
+    margin-top: 0%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.form_info,.btn,.jump{
+    text-align: center;
+}
+.form_info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+input{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+label{
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+}

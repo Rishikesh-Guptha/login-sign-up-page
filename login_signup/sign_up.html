@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="signup_css.css" rel="stylesheet">
+        <script src="firebase.js" type="module"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="heading">
+                <p>Sign Up</p>
+            </div>
+            <div class="info">
+                <form action="sign_up" class="form_info">
+                    <label for="user_name">User Name</label>
+                    <input id="create_username" type="text" placeholder="Enter your user name" required>
+
+                    <label for="email_id">Email Id</label>
+                    <input id="create_emailid" type="email" placeholder="Enter your email id" required>
+
+                    <label for="password">Password</label>
+                    <input id="create_password" type="password" placeholder="Enter your password" required>
+
+                </form>
+            </div>
+            <div class="btn">
+                <button id="signup">Create account</button>
+            </div>
+            <div class="jump">
+                <p>Already have an account? <a href="login_page.html">Click here.</a></p>
+            </div>
+        </div>
+    
+    </body>
+</html>
